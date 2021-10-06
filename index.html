@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Portfolio Filter</title>
+</head>
+<body onload="fun()">
+   <div id="P">
+        <h1>My Portfolio</h1>
+        <p>click on below button to filter category:</p>
+        <div id="d">
+             <button id="Btn" class="btn" onclick="fun()">Show All</button>
+             <button class="btn" onclick="filter(0)">Nature</button>
+             <button class="btn" onclick="filter(1)">Cars</button>
+             <button class="btn" onclick="filter(2)">Lights</button>
+        </div>
+        <div class="D">
+        <div class="image" class="Nature">
+             <img src="https://live.staticflickr.com/4267/34648939603_e3022dcc32_b.jpg">
+             <p>Forest</p>
+        </div>
+        <div class="image" class="Nature">
+            <img src="https://www.teahub.io/photos/full/35-350060_desktop-full-hd-nature-wallpapers-for-pc-dowload.jpg">
+            <p>Mountain</p>
+        </div>
+        <div class="image" class="Nature">
+            <img src="https://img.wallpapersafari.com/desktop/1920/1080/54/36/27p9gE.jpg">
+            <p>River</p>
+        </div>
+        </div>
+        <div class="D">
+        <div class="image" class="Cars">
+            <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGNhcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80">
+            <p>Bugati</p>
+        </div>
+        <div class="image" class="Cars">
+            <img src="https://wallup.net/wp-content/uploads/2016/01/65578-BMW_M3-BMW-car-blue_cars-748x499.png">
+            <p>Bmw M3</p>
+        </div>
+        <div class="image" class="Cars">
+            <img src="https://images.unsplash.com/photo-1565520651265-1148c3b277f4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8b2xkJTIwY2FyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80">
+            <p>Wolkswagen Bug Beetle</p>
+        </div>
+        </div>
+        <div class="D">
+        <div class="image" class="Lights">
+            <img src="https://images.theconversation.com/files/265870/original/file-20190326-36276-1pr2wgj.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop">
+            <p>City Lights</p>
+        </div>
+        <div class="image" class="Lights">
+            <img src="https://p4.wallpaperbetter.com/wallpaper/750/664/987/night-starry-stars-milky-way-wallpaper-preview.jpg">
+            <p>Sky Lights</p>
+        </div>
+        <div class="image" class="Lights">
+            <img src="https://eskipaper.com/images/night-sky-wallpaper-21.jpg">
+            <p>Night Lights</p>
+        </div>
+        </div>
+   </div>
+</body>
+</html>

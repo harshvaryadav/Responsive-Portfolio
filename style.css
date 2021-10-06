@@ -1,0 +1,118 @@
+*{
+    box-sizing:border-box;
+}
+#P{
+    display:block;
+    width:98%;
+    height:auto;
+    background-color:rgb(179, 171, 171);
+    margin:auto;
+    padding:20px 20px 20px 20px;
+}
+h1{
+    text-align:center;
+    color:aqua;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    text-align:center;
+    font-size:20px;
+}
+.D{
+    display:block;
+    width:100%;
+    text-align:center;
+    padding-left:0px;
+}
+#d{
+    width:80%;
+    margin:auto;
+    text-align:center;
+}
+#Btn{
+    background-color:gray;
+    color:white;
+}
+.btn{
+    width:20%;
+    height:40px;
+    margin-left:2%;
+    font-size:15px;
+    border:none;
+    cursor:pointer;
+    background-color:white;
+}
+.image{
+    max-width:25%;
+    height:auto;
+    display:inline-block;
+    text-align:center;
+    margin:auto;
+    margin-top:2%;
+    margin-left:10px;
+    padding:15px 8px 8px 8px;
+    background-color:white;
+    overflow:hidden;
+}
+.image p{
+    padding-top:8px;
+    color:blue;
+}
+img:hover{
+    transform:scale(1.1);
+}
+@media only screen and (max-width:800px)
+{
+       .btn{
+           font-size:12px;
+       }
+       h1{
+        color:rgb(162, 99, 221);
+    }
+    p{
+        font-size:15px;
+    }
+    .image p{
+          font-size:15px;
+          padding-top:2px;
+    }
+    .image{
+          max-width:25%;
+          padding:4px 2px 2px 2px;
+    }
+    img:hover{
+        transform:scale(1.05);
+    }
+}
+@media only screen and (max-width:600px)
+{
+       .btn{
+             font-size:10px; 
+             font-family:Georgia, 'Times New Roman', Times, serif;
+       } 
+       h1{
+           color:blueviolet;
+       }
+       .image p{
+             font-size:12px;
+             padding-top:2px;
+       }
+       .image{
+             max-width:100%;
+             padding:4px 2px 2px 2px;
+       }
+       img:hover{
+        transform:scale(1.05);
+    }
+}
+.btn:hover{
+    background-color:rgb(150, 146, 146); 
+    color:rgb(255, 255, 255);
+}
+img{
+    display:inline-block;
+    width:96%;
+    margin:auto;
+    height:400px;
+    transition:1s ease-in;
+}
